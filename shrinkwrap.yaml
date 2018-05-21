@@ -1,7 +1,6 @@
 dependencies:
   express: 4.16.3
   graphql: 0.13.2
-  graphql-playground-middleware-express: 1.6.2
   graphql-tools: 3.0.1
 packages:
   /@types/node/9.6.18:
@@ -31,20 +30,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-3mSen+NLouRwhmzCSHbMICfLBa6J+QJOc+M8zzLyo10jAYsOK+A2VgR63q4mcQJmAp8LumC5VAyah1zw6enMcg==
-  /argparse/1.0.10:
-    dependencies:
-      sprintf-js: 1.0.3
-    dev: false
-    resolution:
-      integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   /array-flatten/1.1.1:
     dev: false
     resolution:
       integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
-  /balanced-match/1.0.0:
-    dev: false
-    resolution:
-      integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
   /body-parser/1.18.2:
     dependencies:
       bytes: 3.0.0
@@ -62,23 +51,12 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-h2eKGdhLR9hZuDGZvVm84iKxBFQ=
-  /brace-expansion/1.1.11:
-    dependencies:
-      balanced-match: 1.0.0
-      concat-map: 0.0.1
-    dev: false
-    resolution:
-      integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
   /bytes/3.0.0:
     dev: false
     engines:
       node: '>= 0.8'
     resolution:
       integrity: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
-  /concat-map/0.0.1:
-    dev: false
-    resolution:
-      integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
   /content-disposition/0.5.2:
     dev: false
     engines:
@@ -101,13 +79,6 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
-  /cross-fetch/2.0.0:
-    dependencies:
-      node-fetch: 2.0.0
-      whatwg-fetch: 2.0.3
-    dev: false
-    resolution:
-      integrity: sha512-gnx0GnDyW73iDq6DpqceL8i4GGn55PPKDzNwZkopJ3mKPcfJ0BUIXBsnYfJBVw+jFDB+hzIp2ELNRdqoxN6M3w==
   /debug/2.6.9:
     dependencies:
       ms: 2.0.0
@@ -148,12 +119,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
-  /esprima/4.0.0:
-    dev: false
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-oftTcaMu/EGrEIu904mWteKIv8vMuOgGYo7EhVJJN00R/EED9DCua/xxHRdYnKtcECzVg7xOWhflvJMnqcFZjw==
   /etag/1.8.1:
     dev: false
     engines:
@@ -223,50 +188,6 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-  /graphql-config/2.0.0:
-    dependencies:
-      graphql-import: 0.4.5
-      graphql-request: 1.6.0
-      js-yaml: 3.11.0
-      lodash: 4.17.10
-      minimatch: 3.0.4
-    dev: false
-    engines:
-      node: '>= 6.0.0'
-    peerDependencies:
-      graphql: ^0.11.0 || ^0.12.0 || ^0.13.0
-    resolution:
-      integrity: sha512-//hZmROEk79zzPlH6SVTQeXd8NVV65rquz1zxZeO6oEuX5KNnii8+oznLu7d897EfJ+NShTZtsY9FMmxxkWmJw==
-  /graphql-import/0.4.5:
-    dependencies:
-      lodash: 4.17.10
-    dev: false
-    engines:
-      node: '>=4.0.0'
-    peerDependencies:
-      graphql: ^0.11.0 || ^0.12.0 || ^0.13.0
-    resolution:
-      integrity: sha512-G/+I08Qp6/QGTb9qapknCm3yPHV0ZL7wbaalWFpxsfR8ZhZoTBe//LsbsCKlbALQpcMegchpJhpTSKiJjhaVqQ==
-  /graphql-playground-html/1.5.5:
-    dependencies:
-      graphql-config: 2.0.0
-    dev: false
-    resolution:
-      integrity: sha512-PzSywpEKcjbDUkV6e3ivEixvAuUJGyYmBUvuittzySe/RgwHRo0xKLD7HouUCTbpFfWMw8kRKhAUVtt7Ys97uw==
-  /graphql-playground-middleware-express/1.6.2:
-    dependencies:
-      graphql-playground-html: 1.5.5
-    dev: false
-    peerDependencies:
-      express: ^4.16.2
-    resolution:
-      integrity: sha512-BHaEZe2J2lQ1TX2W73a6PI2zVjB9Nb0J9pFdbG1L7ugYdbait/elDrsNMxLCsDHVOGJF009VlYszrk7Cq7FiTg==
-  /graphql-request/1.6.0:
-    dependencies:
-      cross-fetch: 2.0.0
-    dev: false
-    resolution:
-      integrity: sha512-qqAPLZuaGlwZDsMQ2FfgEyZMcXFMsPPDl6bQQlmwP/xCnk1TqxkE1S644LsHTXAHYPvmRWsIimfdcnys5+o+fQ==
   /graphql-tools/3.0.1:
     dependencies:
       apollo-link: 1.2.1
@@ -316,17 +237,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
-  /js-yaml/3.11.0:
-    dependencies:
-      argparse: 1.0.10
-      esprima: 4.0.0
-    dev: false
-    resolution:
-      integrity: sha512-saJstZWv7oNeOyBh3+Dx1qWzhW0+e6/8eDzo7p5rDFqxntSztloLtuKu+Ejhtq82jsilwOIZYsCz+lIjthg1Hw==
-  /lodash/4.17.10:
-    dev: false
-    resolution:
-      integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
   /media-typer/0.3.0:
     dev: false
     engines:
@@ -361,12 +271,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
-  /minimatch/3.0.4:
-    dependencies:
-      brace-expansion: 1.1.11
-    dev: false
-    resolution:
-      integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
   /ms/2.0.0:
     dev: false
     resolution:
@@ -377,12 +281,6 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
-  /node-fetch/2.0.0:
-    dev: false
-    engines:
-      node: 4.x || >=6.0.0
-    resolution:
-      integrity: sha1-mCu6Q+zU8pIqKcwYamu7C7c/y6Y=
   /on-finished/2.3.0:
     dependencies:
       ee-first: 1.1.1
@@ -476,10 +374,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==
-  /sprintf-js/1.0.3:
-    dev: false
-    resolution:
-      integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
   /statuses/1.4.0:
     dev: false
     engines:
@@ -517,10 +411,6 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-  /whatwg-fetch/2.0.3:
-    dev: false
-    resolution:
-      integrity: sha1-nITsLc9oGH/wC8ZOEnS0QhduHIQ=
   /zen-observable-ts/0.8.9:
     dependencies:
       zen-observable: 0.8.8
@@ -537,5 +427,4 @@ shrinkwrapVersion: 3
 specifiers:
   express: ^4.16.3
   graphql: ^0.13.2
-  graphql-playground-middleware-express: ^1.6.2
   graphql-tools: ^3.0.1
